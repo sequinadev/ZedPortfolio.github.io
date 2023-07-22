@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.container .section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.container .section:nth-child(1){
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(img/clay-banks-hwLAI5lRhdM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container .section:nth-child(2){
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(img//shigeki-wakabayashi-6nuz52vsbWc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container .section:nth-child(3){
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(img/syuhei-inoue-kaoHI0iHJPM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container .section:nth-child(4){
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(img/tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container .section:nth-child(5){
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(img/yoav-aziz-tKCd-IWc4gI-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container .section .content{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    max-width: 50vw;
+}
+
+.content .title{
+    font-size: 4rem ;
+    color: white;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.content .text{
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+}
